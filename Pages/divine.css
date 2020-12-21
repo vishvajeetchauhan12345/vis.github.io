@@ -1,0 +1,413 @@
+	*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+	background-position: center;
+	background-size: cover;
+}
+body{
+	width:100vw;
+	height:270vw;
+	background-position: center;
+	background-color: #C0C0C0;
+	/*background-image: url(vis.png);*/
+	background-size: cover;
+	background-repeat: repeat;
+	scroll-behavior: smooth;
+}
+html{
+	scroll-behavior: smooth;
+}
+.Container-1{
+	width: 100vw;
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-image: url(images/bgpic30.jpg);
+	background-attachment: fixed;
+	margin: auto;
+}
+.Container-1 .logo-control{
+	width: 30vw;
+	height: 30vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+}
+.Container-1 .logo-control a{
+	width: 25vw;
+	height: 25vw;
+	display: grid;
+	place-items:center;
+}
+.Container-1 .logo-control a  img{
+	width: 20vw;
+	height: 20vw;
+	border-radius: 25vw;
+}
+.Container-1 .Category-control{
+	width: 40vw;
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.Container-1 .Category-control a{
+	width: 40vw;
+	height: 25vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	text-decoration: none;
+}
+.Container-1 .Category-control a header{
+	width: 35vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+	text-transform: uppercase;
+	font-size: 5.2vw;
+	font-weight: bold;
+	color: black;
+}
+.Container-2{
+	width: 85vw;
+	height: 100vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	background-color: white;
+	margin: auto;
+	margin-top: 10vw;
+}
+
+.Container-2 .content-controler-1{
+	width: 85vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: transparent;
+	margin: auto;
+}
+.Container-2 .content-controler-1 *{
+	margin:auto;
+}
+.Container-2 .content-controler-1 .list-card{
+	width: 20vw;
+	height: 20vw;
+	background-image: linear-gradient(purple,blue);
+	box-shadow: 0px 8px 20px 0px;
+	border-radius: 0.7vw;
+	margin-top: -6vw;
+	display: grid;
+	place-items:center;
+}
+.Container-2 .content-controler-1 .list-card p{
+	width:17vw;
+	height: 19vw;
+	color:white;
+	font-family: monospace;
+	font-size: 1.4vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-2 .content-controler-2{
+	width: 85vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: transparent;
+	margin: auto;
+}
+.Container-2 .content-controler-2 *{
+	margin:auto;
+}
+.Container-2 .content-controler-2 .list-card{
+	width: 20vw;
+	height: 20vw;
+	background-image: linear-gradient(lightgreen,blue);
+	box-shadow: 0px 8px 20px 0px;
+	border-radius: 0.7vw;
+	margin-top: -6vw;
+	display: grid;
+	place-items:center;
+}
+.Container-2 .content-controler-2 .list-card p{
+	width:19vw;
+	height: 19vw;
+	color:white;
+	font-family: monospace;
+	font-size: 1.4vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-2 .content-controler-3{
+	width: 85vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: transparent;
+	margin: auto;
+}
+.Container-2 .content-controler-3 *{
+	margin:auto;
+}
+.Container-2 .content-controler-3 .list-card{
+	width: 20vw;
+	height: 20vw;
+	background-image: radial-gradient(red,white,green);
+	box-shadow: 0px 8px 20px 0px;
+	border-radius: 0.7vw;
+	margin-top: -6vw;
+	display: grid;
+	place-items:center;
+}
+.Container-2 .content-controler-3 .list-card p{
+	width:19vw;
+	height: 19vw;
+	color:black;
+	font-family: monospace;
+	font-size: 1.4vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-2 .content-controler-4{
+	width: 85vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color:transparent;
+	margin: auto;
+}
+.Container-2 .content-controler-4 *{
+	margin:auto;
+}
+.Container-2 .content-controler-4 .list-card{
+	width: 20vw;
+	height: 20vw;
+	background-image: radial-gradient(skyblue,blue,purple);
+	box-shadow: 0px 8px 20px 0px;
+	border-radius: 0.7vw;
+	margin-top: -6vw;
+	display: grid;
+	place-items:center;
+}
+.Container-2 .content-controler-4 .list-card p{
+	width:17vw;
+	height: 19vw;
+	color:white;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size: 1.4vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-3{
+	width: 85vw;
+	height: 60vw;
+	display: grid;
+	place-items:center;
+	margin:auto;
+	margin-top: 10vw;
+	background-color: white;
+}
+.Container-3 *{
+    margin: auto;
+}
+.Container-3 .row-container{
+	width:85vw;
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-image: url(images/bgpic38.jpg);
+	margin:auto;
+	background-attachment: fixed;
+}
+.Container-3 .row-container .row-col-1{
+	width:25vw;
+	height:25vw;
+	background-image: url(images/bgpic4.jpg); 
+	display: grid;
+	place-items:center;
+}
+.Container-3 .row-container .row-col-1 p{
+	width:24vw;
+	height:24vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size: 1.4vw;
+	color: white;
+}
+.Container-3 .row-container-2{
+	width:85vw;
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-image: url(images/bgpic38.jpg);
+	margin:auto;
+	background-attachment: fixed;
+}
+.Container-3 .row-container-2 .row-col-21{
+	width:25vw;
+	height:25vw;
+	background-image: url(images/bgpic14.jpg); 
+	display: grid;
+	place-items:center;
+}
+.Container-3 .row-container-2 .row-col-21 p{
+	width:22vw;
+	height:24vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.7vw;
+	color: white;
+}
+.Container-3 .row-container-2 .row-col-22{
+	width:55vw;
+	height:25vw;
+	background-color: transparent; 
+	display: grid;
+	place-items:center;
+	justify-content: center;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-1{
+	width:55vw;
+	height:12vw;
+	background-image: url(images/bgpic15.jpg);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-attachment: fixed;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-1 .row-col1{
+	width: 15vw;
+	height: 12vw;
+	background-color: transparent;
+	border-radius: 0.8vw;
+	margin: auto;
+	margin-top: -3vw;
+	display: grid;
+	place-items:center;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-1 .row-col1 img{
+	width: 15vw;
+	height: 12vw;
+	border-radius: 0.8vw;
+	display: grid;
+	place-items:center;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-2{
+	width:55vw;
+	height:12vw;
+	background-image: url(images/bgpic15.jpg);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-attachment: fixed;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-2 .row-col2{
+	width: 15vw;
+	height: 12vw;
+	background-color: purple;
+	border-radius: 0.8vw;
+	margin: auto;
+	margin-top: -3vw;
+} 
+.Container-3 .row-container-2 .row-col-22 .row22-2 .row-col2 img{
+	width: 15vw;
+	height: 12vw;
+	border-radius: 0.8vw;
+	display: grid;
+	place-items:center;
+}
+.Container-4{
+	width: 85vw;
+	height: 25vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	margin-top: 10vw;
+	background: white;
+}
+.Container-4 *{
+	margin: auto;
+}
+.Container-4 .row-content{
+	width:85vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	background-image: url(images/bgpic20.jpg);
+	background-attachment: fixed;
+}
+.Container-4 .row-content .row4-1{
+	width:22vw;
+	height: 20vw;
+	background-image: radial-gradient(black,purple,blue);
+	border-radius: 1vw;
+	display: grid;
+	place-items:center;
+}
+.Container-4 .row-content .row4-1 p{
+	width:20vw;
+	height: 19vw;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size: 1.5vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+	color: white;
+}
+.Container-5{
+	width: 85vw;
+	height: 25vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	margin-top: 10vw;
+	background: black;
+}
+.Container-5 *{
+	margin: auto;
+}
+.Container-5 p{
+	width:60vw;
+	height:25vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+	font-size: 1.4vw;
+	font-family: sans-serif;
+	color:white;
+}

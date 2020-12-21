@@ -1,0 +1,1214 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+	background-position: center;
+	background-size: cover;
+}
+body{
+	width:100vw;
+	height:770vw;
+	background-position: center;
+	background-color: #C0C0C0;
+	/*background-image: url(vis.png);*/
+	background-size: cover;
+	background-repeat: repeat;
+	scroll-behavior: smooth;
+}
+.Container-1{
+	width:100vw;
+	height:5vw;
+	background-color: rgb(39, 166, 4);
+	box-shadow: 0px 2px 18px 0px #ddd;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-1 *{
+	margin:auto;
+}
+.Container-1 .logo-control{
+	width:5vw;
+	height:5vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+}
+.Container-1 .logo-control a{
+	width:5vw;
+	height:5vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+}
+.Container-1 .logo-control a img{
+	width:5vw;
+	height:5vw;
+	border-radius: 5vw;
+	background-size: cover;
+	background-position: center;
+}
+.Container-1 .button-control{
+	width:70vw;
+	height:5vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.Container-1 .button-control ul{
+	display: inline-flex;
+	list-style: none;
+	width:70vw;
+	height:5vw;
+	margin:auto;
+}
+.Container-1 .button-control ul li{
+	display: grid;
+	place-items:center;
+	width:8vw;
+	height:3vw;
+	border-radius: 1vw;
+	border:1px solid #ddd;
+}
+.Container-1 .button-control ul li:hover{
+	background-color: rgb(26, 210, 14);
+	border-bottom: 0.5vw solid blue;
+	
+}
+.Container-1 .button-control ul li a{
+	text-decoration: none;
+	font-size: 1.0vw;
+	color: white;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.Container-1 .button-control ul li a .fa{
+	margin-right: 4px;
+}
+.Container-1 .button-control ul li:hover a:hover{
+	border-bottom: 2px solid blue;
+}
+.Container-2{
+	width:85vw;
+	height:85vw;
+	background-color: white;
+	margin:auto;
+	margin-top: 10vw;
+	display: grid;
+	place-items:center;
+}
+.Container-2 .panel-21{
+ width: 85vw;
+ height: 25vw;
+ background:transparent;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ margin: auto;
+}
+.Container-2 .panel-21 *{
+	margin: auto;
+}
+.Container-2 .panel-21 .card-img{
+	width:20vw;
+	height: 20vw;
+	display: grid;
+	place-items:center;
+	background-color: black;
+	margin-top: -8vw;
+	box-shadow: 0px 2px 18px 0px #ddd;
+	border-radius: 1vw;
+	overflow: hidden;
+	border:1px solid white;
+}
+.Container-2 .panel-21 .card-img img{
+	width:20vw;
+	height: 20vw;
+	display: grid;
+	place-items:center;
+	background-color: black;
+	border-radius: 1vw;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+.Container-2 .panel-21 .card-img img:hover{
+	width:22vw;
+	height: 22vw;
+	transition: all 0.3s ease-in-out;
+}
+.Container-2 .panel-21 .card-para{
+	width:20vw;
+	height: 20vw;
+	display: grid;
+	place-items:center;
+	background-color: rgb(19, 18, 65);
+	margin-top: -8vw;
+	border-radius: 1vw;
+	overflow: hidden;
+}
+.Container-2 .panel-21 .card-para p{
+	width:19vw;
+	height: 19vw;
+	display: grid;
+	place-items:center;
+	font-family: monospace,sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size:0.9vw;
+}
+.Container-2 .panel-21 .card-para:hover{
+	border:1px solid white;
+}
+.Container-2 .panel-21 .card-para p caption{
+	position: absolute;
+	text-align: right;
+	font-family: monospace;
+	font-weight: bold;
+	color: white;
+	font-size:0.9vw;
+	margin: auto;
+}
+.Container-3{
+	width:85vw;
+	height:115vw;
+	background-color: white;
+	margin:auto;
+	margin-top: 10vw;
+	display: flex;
+	place-items:center;
+	align-content: center;
+	justify-content: center;
+}
+.Container-3 .panel-31{
+	width: 27vw;
+	height:110vw;
+	display: grid;
+	place-items:center;
+	align-content: center;
+	justify-content: center;
+	/*background-color: #ddd;*/
+	margin:auto;
+}
+.Container-3 .panel-31 *{
+	margin:auto;
+}
+.Container-3 .panel-31 .pic-card{
+	width: 27vw;
+	height:30vw;
+	display: grid;
+	place-items:center;
+}
+.Container-3 .panel-31 .pic-card img{
+	width: 27vw;
+	height:30vw;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+	border:1px solid #ddd;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.Container-3 .panel-31 .pic-card img:hover{
+	padding:10px 10px;
+	transition: all 0.5s ease-in;
+	box-shadow: 0px 2px 20px 0px #ddd;
+}
+.Container-3 .panel-31 .story{
+	width: 27vw;
+	height:80vw;
+	display: grid;
+	place-items:center;
+	overflow: hidden;
+}
+.Container-3 .panel-31 .story header{
+	width:27vw;
+	height: 5vw;
+	font-size: 2.0vw;
+	font-weight: bold;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+}
+.Container-3 .panel-31 .story p{
+	width: 26vw;
+	height:62vw;
+	font-size: 1.1vw;
+	text-align: center;
+	font-family:monospace,"helvetica";
+	color: rgb(98, 97, 127);
+	overflow-x: hidden;
+}
+
+.Container-3 .panel-31 .story p i{
+	font-weight: bold;
+}
+.Container-3 .panel-31 .story li{
+	font-size: 1.1vw;
+	text-align: center;
+	font-family:monospace,"helvetica";
+	color: rgb(98, 97, 127);
+}
+.Container-3 .panel-31 .story p strong{
+	width: 15vw;
+	height:2vw;
+	font-size: 1.0vw;
+	color:rgb(98, 97, 127);
+	font-weight: bold;
+}
+/*.Container-3 .panel-31 .story p button{
+	width:10vw;
+	height:3vw;
+	font-size: 1.2vw;
+	color: white;
+	background-color: rgb(21, 16, 205);
+	font-weight: bold;
+	cursor: pointer;
+	border:1px solid #ddd;
+}*/
+.Container-3 .panel-31 .story p button:hover{
+		background-color: rgb(33, 29, 244);
+}
+.Container-4{
+	width:85vw;
+	height: 20vw;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color: white;
+	margin: auto;
+	margin-top: 10vw;
+	background-image: url(contentPic/dildar.jpg);
+	background-attachment: fixed;
+}
+.Container-4 *{
+	margin:auto;
+}
+.Container-4 .card-items{
+	width:18vw;
+	height:18vw;
+	background-image: radial-gradient(purple,blue);
+	margin-top: -5vw;
+	box-shadow: 0px 8px 16px 0px;
+	border-radius: 0.8vw;
+	text-transform: uppercase;
+	display: grid;
+	place-items:center;
+	justify-content: 
+	align-content:center;
+	overflow: hidden;
+	border:1px solid #ddd;
+}
+.Container-4 .card-items strong{
+	font-size: 1.8vw;
+	font-weight: bold;
+	width:18vw;
+	height:18vw;
+	text-align: center;
+	color: white;
+	display: grid;
+	place-items:center;
+}
+.Container-4 .card-items:hover{
+	border:5px;
+	border-image: linear-gradient(blue,orange,purple);
+}
+.Container-5{
+	width: 85vw;
+	height: 130vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background: white;
+	margin:auto;
+	margin-top: 10vw;
+  }
+  .Container-5 *{
+  	margin:auto;
+  }
+  .Container-5 .img-control{
+   width:80vw;
+   height:30vw;
+   display: grid;
+   place-items:center;
+  }
+  .Container-5 .img-control img{
+  	background-position: center;
+  	background-size: cover;
+  	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	width:80vw;
+    height:30vw;
+    cursor: pointer;
+    border:1px solid #ddd;
+  }
+  .Container-5 .story-line{
+   width:80vw;
+   height:90vw;
+   display: grid;
+   place-items:center;
+   margin: auto;
+  }
+   .Container-5 .story-line p{
+   	width:80vw;
+   height:85vw;
+   font-size: 1.2vw;
+   font-family: serif;
+   color: rgb(54,60,60);
+   display: grid;
+   justify-content: center;
+   align-content: center;
+   place-items:center;
+   border-radius: 0.5vw;
+   }
+   .Container-5 .story-line p:hover{
+   	background-image: linear-gradient(blue,green);
+   	color:white;
+   	text-shadow: 0px 0px 6px;
+   }
+   .Container-5 .story-line p i{
+   width:70vw;
+   height:auto;
+   font-size: 1.3vw;
+   font-family: monospace;
+   font-weight: bold;
+   display: grid;
+   place-items:center;
+   }
+    .Container-5 .story-line header{
+    	font-size: 2.1vw;
+    	color: blue;
+    	text-align: center;
+    	width:70vw;
+        height:5vw;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        place-items:center;
+        font-weight: bold;
+    }
+  .Container-6{
+  	display: grid;
+  	place-items:center;
+  	width:85vw;
+  	height: 85vw;
+  	margin: auto;
+  	margin-top: 10vw;
+  	background-color: white;
+  }
+  .Container-6 *{
+  	margin: auto;
+  }
+  .Container-6 .card-controler{
+  	width:85vw;
+  	height: 25vw;
+  	display: flex;
+  	justify-content: center;
+  	align-content: center;
+  	background-color: transparent;
+  }
+  .Container-6 .card-controler *{
+  	margin:auto;
+  }
+  .Container-6 .card-controler .card-container{
+  	width:20vw;
+  	height: 25vw;
+  	display: grid;
+  	place-items:center;
+  	background:transparent;
+  }
+  .Container-6 .card-controler .card-container img{
+  	width:20vw;
+  	height: 15vw;
+  	background-size: cover;
+  	background-position: center;
+  	border:1px solid #ddd;
+  	cursor: pointer;
+  	box-shadow: 0px 8px 20px 0px #ddd;
+  }
+  .Container-6 .card-controler .card-container img:hover{
+  	box-shadow: 0px 8px 20px 0px;
+  	border:1px solid red;
+  }
+   .Container-6 .card-controler .card-container p{
+   	width: 19vw;
+   	height: 6vw;
+   	font-size: 1.0vw;
+   	font-family: "Times New Roman", Times, serif;
+   	margin: auto;
+   	color:black;
+   	display: grid;
+   	justify-content: center;
+   	align-content: center;
+   	place-items:center;
+   }
+   .Container-6 .card-controler .card-container button{
+   	width:15vw;
+   	height: 3vw;
+   	font-size: 1.0vw;
+   	font-family:sans-serif,"helvetica";
+   	margin:auto;
+   	color: 	white;
+   	background-color: rgb(21, 16, 205);
+   	font-weight: bold;
+   	cursor: pointer;
+   	border:1px solid #ddd;
+   	text-transform: uppercase;
+   }
+   .Container-6 .card-controler .card-container button:hover{
+   	background-color: rgb(33, 29, 244);
+   }
+.Container-7{
+	width:50vw;
+	height: 75vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	margin-top: 10vw;
+	background-color: white;
+	background-image: url(images/bgpic1.jpg);
+	background-attachment: fixed;
+}
+.Container-7 *{
+	margin:auto;
+}
+.Container-7 .card-menu{
+	width: 50vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.Container-7 .card-menu .col-1{
+	width:20vw;
+	height:20vw;
+	display: grid;
+	place-items:center;
+	background-image: linear-gradient(green,orange);
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-content:center;
+	border:1px solid #ddd;
+}
+.Container-7 .card-menu .col-1 p{
+	width:18vw;
+	height:16vw;
+	font-size: 1.3vw;
+	color: white;
+	display: grid;
+	place-items:center;
+	overflow: hidden;
+	justify-content: center;
+	align-content:center;
+	font-family: monospace;
+	text-shadow: 2px 0px 6px;
+}
+.Container-7 .card-menu .col-1 button{
+	width:15vw;
+	height:3vw;
+	font-size: 1.0vw;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgb(21, 16, 205);
+	border:1px solid #ddd;
+}
+.Container-7 .card-menu .col-1 button:hover{
+	background-color: rgb(33, 29, 244);
+	transition: all 0.1s ease-in;
+}
+.Container-7 .card-menu .col-2{
+	width:20vw;
+	height:20vw;
+	display: grid;
+	place-items:center;
+	background-image: linear-gradient(blue,tomato);
+	background-position: center;
+	background-size: cover;
+	border:1px solid #ddd;
+}
+.Container-7 .card-menu .col-2 p{
+	width:19vw;
+	height:16vw;
+	font-size: 1.3vw;
+	color: white;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content:center;
+	font-family: monospace;
+	overflow: hidden;
+	text-shadow: 2px 0px 6px;
+}
+.Container-7 .card-menu .col-2 button{
+	width:15vw;
+	height:3vw;
+	font-size: 1.0vw;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgb(21, 16, 205);
+	border:1px solid #ddd;
+}
+.Container-7 .card-menu .col-2 button:hover{
+	background-color: rgb(33, 29, 244);
+	transition: all 0.1s ease-in;
+}
+.Container-7 .card-menu .col-3{
+	width:20vw;
+	height:20vw;
+	display: grid;
+	place-items:center;
+	background-image: linear-gradient(green,purple);
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-content:center;
+	border:1px solid #ddd;
+}
+.Container-7 .card-menu .col-3 p{
+	width:19vw;
+	height:16vw;
+	font-size: 1.3vw;
+	color: white;
+	display: grid;
+	place-items:center;
+	overflow: hidden;
+	justify-content: center;
+	align-content:center;
+	font-family: monospace;
+	text-shadow: 2px 0px 6px;
+}
+.Container-7 .card-menu .col-3 button{
+	width:15vw;
+	height:3vw;
+	font-size: 1.0vw;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgb(21, 16, 205);
+	border:1px solid #ddd;
+}
+.Container-7 .card-menu .col-3 button:hover{
+	background-color: rgb(33, 29, 244);
+	transition: all 0.1s ease-in;
+}
+.Container-8{
+	width: 85vw;
+	height: 180vw;
+	display: grid;
+	place-items:center;
+	background-color: white;
+	margin:auto;
+	margin-top: 10vw;
+}
+.Container-8 *{
+	margin: auto;
+}
+.Container-8 .panel-81{
+	width: 85vw;
+	height: 90vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 0px 8px 16px 0px;
+	background-image: url(images/bgpic12.jpg);
+	background-attachment: fixed;
+}
+.Container-8 .panel-81 .row-col-1{
+	width: 40vw;
+	height: 80vw;
+	display: grid;
+	place-items:center;
+	background-color: #ddd;
+	margin-left: 1vw;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+.Container-8 .panel-81 .row-col-1 header .fa{
+  margin:4px;
+}
+.Container-8 .panel-81 .row-col-1 header{
+	width:40vw;
+	height:5vw;
+	margin-top: 0px;
+	font-size: 2.1vw;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+	display: inline-flex;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	color: black;
+	background-color: white;
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container{
+	width: 40vw;
+	height: 75vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	background-color:transparent;
+	overflow-x: hidden;
+	background-color: rgb(142, 6, 115);
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container *{
+	margin:auto;
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container ul{
+	width: 40vw;
+	height: 180vw;
+	margin: auto;
+	list-style: none;
+	display:grid;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	background-color: rgb(142, 6, 115);
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container ul *{
+	margin:auto;
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container ul li{
+	text-align: center;
+	width:38vw;
+	height: 6vw;
+	display:grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	color: white;
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container ul li .fa{
+	margin-right: 8px;
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container ul li:nth-child(1){
+margin-top: 60vw;
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container ul li:hover{
+	background-color: rgb(217, 15, 177);
+	transition: all 0.3s ease-in;
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.0vw;
+}
+.Container-8 .panel-81 .row-col-1 .Col-Container ul li:hover .fa{
+	color:red;
+	background-image: linear-gradient(tomato,white,lightgreen);
+	font-size: 1.2vw;
+	transition: all 0.2s ease-in;
+}
+.Container-8 .panel-81 .row-col-2{
+	width: 25vw;
+	height: 80vw;
+	background-color: #ddd;
+	margin-right: 1vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	background-image: url(images/bgpic21.jpg);
+}
+.Container-8 .panel-81 .row-col-2 *{
+	margin: auto;
+}
+.Container-8 .panel-81 .row-col-2 header{
+    width:25vw;
+	height:5vw;
+	margin-top: 0px;
+	font-size: 2.1vw;
+	font-weight: bold;
+	font-family: "Gill Sans", sans-serif;
+	display: inline-flex;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	color: black;
+	background-color: white;
+	margin: auto;
+}
+.Container-8 .panel-81 .row-col-2 header .fa{
+	margin:4px;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container{
+	width: 25vw;
+	height: 75vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	background-color: transparent;
+	margin: auto;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container .row1-card{
+	width: 20vw;
+	height: 20vw;
+	border-radius: 0.5vw;
+	box-shadow: 0px 2px 20px 0px #ddd;
+	background-image: linear-gradient(skyblue,blue);
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container .row1-card p{
+	width:19vw;
+	height: 16vw;
+	font-size: 1.5vw;
+	font-family:monospace;
+	text-align: center;
+	color: white;
+	background-color: transparent;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container .row1-card strong{
+	font-size: 1.2vw;
+	width:19vw;
+	height: 2vw;
+	display: flex;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	color:#ddd;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container .row2-card{
+	width: 20vw;
+	height: 20vw;
+	border-radius: 0.5vw;
+	box-shadow: 0px 2px 20px 0px #ddd;
+	background-image: linear-gradient(lightgreen,green);
+	margin-top: 5vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container .row2-card p{
+	width:19vw;
+	height: 16vw;
+	font-size: 1.5vw;
+	font-family:courier;
+	text-align: center;
+	color: white;
+	background-color: transparent;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container .row2-card strong{
+	font-size: 1.2vw;
+	width:19vw;
+	height: 2vw;
+	display: flex;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	color:#ddd;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container .row3-card{
+	width: 20vw;
+	height: 20vw;
+	border-radius: 0.5vw;
+	box-shadow: 0px 2px 20px 0px #ddd;
+	background-image: linear-gradient(violet,purple);
+	margin-top: 5vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container .row3-card p{
+	width:19vw;
+	height: 16vw;
+	font-size: 1.5vw;
+	font-family:sans-serif,monospace;
+	text-align: center;
+	color: white;
+	background-color: transparent;
+}
+.Container-8 .panel-81 .row-col-2 .Col-Container .row3-card strong{
+	font-size: 1.2vw;
+	width:19vw;
+	height: 2vw;
+	display: flex;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	color:#ddd;
+}
+.Container-8 .panel-82{
+	width: 85vw;
+	height: 90vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 0px 8px 16px 0px;
+	background-image: url(contentPic/vadiya.jpg);
+	background-attachment: fixed;
+}
+.Container-8 .panel-82 .header-container{
+	width:80vw;
+	height: 8vw;
+    display: grid;
+	place-items:center;
+}
+.Container-8 .panel-82 .header-container header{
+    width:80vw;
+	height: 8vw;
+	font-size: 3.1vw;
+	color:white;
+	background-color: transparent;
+	display: flex;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	font-weight: bold;
+	font-family: monospace;
+	 border-bottom: 2px solid red;
+}
+.Container-8 .panel-82 .header-container header .fa{
+	margin: 4px;
+}
+.Container-8 .panel-82 .Content-container{
+	width:70vw;
+	height: 60vw;
+	display: grid;
+	place-items:center;
+	margin: auto;
+}
+.Container-8 .panel-82 .Content-container .rect-container{
+	width: 70vw;
+	height: 30vw;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.Container-8 .panel-82 .Content-container .rect-container img{
+	width: 20vw;
+	height: 20vw;
+	border-radius: 25vw;
+	display: grid;
+	place-items:center;
+	box-shadow: 0px 8px 16px 0px #ddd;
+	border:1px solid #ddd;
+}
+.Container-9{
+	width: 100vw;
+	height: 85vw;
+	background-color:rgb(10, 10, 42);
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 10vw;
+}
+.Container-9 *{
+	margin: auto;
+}
+.Container-9 .list-container-1{
+	width: 100vw;
+	height: 42vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: rgb(10, 10, 42);
+}
+.Container-9 .list-container-1 .panel-91{
+	width: 30vw;
+	height: 40vw;
+	background-color: transparent;
+	display: grid;
+	place-items:center;
+}
+.Container-9 .list-container-1 .panel-91 dl{
+	width:28vw;
+	height: 40vw;
+	display: inline;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	list-style:none;
+}
+.Container-9 .list-container-1 .panel-91 dl *{
+	/*border:1px solid white;*/
+	color:rgb(156, 156, 163);
+	margin: auto;
+}
+.Container-9 .list-container-1 .panel-91 dl dt{
+	text-align: center;
+	width:28vw;
+	height: 2.4vw;
+	text-align: left;
+	color:rgb(156, 156, 163);
+	font-size: 1.4vw;
+	text-transform: uppercase;
+	margin-top: 1vw;
+}
+.Container-9 .list-container-1 .panel-91 dl dt .fa{
+	margin-right: 4px;
+}
+.Container-9 .list-container-1 .panel-91 dl dt dd{
+	width:20vw;
+	height: 2vw;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.Container-9 .list-container-1 .panel-91 dl  dd a{
+	color:rgb(150, 140, 150);
+	font-size: 1.2vw;
+	text-transform: capitalize;
+	text-decoration: none;
+	margin-left: 2.2vw;
+}
+.Container-9 .list-container-1 .panel-91 dl  dd a .fa{
+	margin-right: 4px;
+}
+.Container-9 .list-container-1 .panel-91 dl  dd:hover a:hover{
+	color: white;
+}
+.Container-9 .list-container-1 .panel-91 dl  dd:hover a:hover .fa{
+	color: green;
+	text-shadow: 0px 0px 6px red;
+	font-size: 1.3vw;
+}
+.Container-9 .list-container-1 .panel-913{
+	width: 30vw;
+	height: 40vw;
+	background-color: transparent;
+	display: grid;
+	place-items:center;
+}
+.Container-9 .list-container-1 .panel-913 ul{
+	width:28vw;
+	height: 36vw;
+	display: inline-grid;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	list-style:all;
+}
+.Container-9 .list-container-1 .panel-913 ul li{
+	text-align: center;
+	width:28vw;
+	height: 4vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+}
+.Container-9 .list-container-1 .panel-913 ul li a{
+	color:rgb(156, 156, 163);
+	font-size: 1.3vw;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.Container-9 .list-container-1 .panel-913 ul li a .fa{
+	margin-right: 6px;
+}
+.Container-9 .list-container-1 .panel-913 ul li a:hover{
+	color: white;
+}
+.Container-9 .list-container-1 .panel-913 ul li a:hover .fa{
+	color: green;
+	font-size: 1.4vw;
+}
+.Container-9 .list-container-1 .panel-911{
+	width: 30vw;
+	height: 40vw;
+	background-color: transparent;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+}
+.Container-9 .list-container-1 .panel-911 .icon-panel{
+	width:25vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.Container-9 .list-container-1 .panel-911 .icon-panel img{
+	width:25vw;
+	height: 25vw;
+	border:1px solid #ddd;
+}
+.Container-9 .list-container-1 .panel-911 .icon-about{
+	width: 25vw;
+	height: 15vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+}
+.Container-9 .list-container-1 .panel-911 .icon-about p{
+	width: 25vw;
+	height: 15vw;
+	font-size: 1.2vw;
+	font-weight: bold;
+	font-family: monospace;
+	color: rgb(130, 130, 144);
+	display: grid;
+	place-items:center;
+}
+.Container-9 .list-container-1 .panel-911 .icon-about p:hover{
+	color: red;
+	text-shadow: 0px 0px 6px red;
+}
+.Container-9 .list-container-2{
+	width: 100vw;
+	height: 42vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: rgb(10, 10, 42);
+}
+.Container-9 .list-container-2 .panel-92{
+	width: 30vw;
+	height: 40vw;
+	background-color:transparent; 
+	display: grid;
+	place-items:center;
+}
+.Container-9 .list-container-2 .panel-92 header{
+	color: rgb(130, 130, 144);
+	font-size: 2.2vw;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: transparent;
+	width: 30vw;
+	height: 5vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-9 .list-container-2 .panel-92 .about-head1{
+	width: 30vw;
+	height: 35vw;
+	display: grid;
+	place-items:center;
+}
+.Container-9 .list-container-2 .panel-92 .about-head1 *{
+	color:rgb(156, 156, 163);
+}
+.Container-9 .list-container-2 .panel-92 .about-head1 ul{
+	width: 25vw;
+	height: 35vw;
+	display: inline;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+}
+.Container-9 .list-container-2 .panel-92 .about-head1 ul li{
+	width:25vw;
+	height: 5vw;
+	text-align: center;
+	display:flex;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+}
+
+.Container-9 .list-container-2 .panel-92 .about-head1 ul li a{
+	font-family: sans-serif;
+	font-size: 1.2vw;
+	text-decoration: none;
+	color: rgb(156, 156, 163);
+}
+.Container-9 .list-container-2 .panel-921{
+	width: 30vw;
+	height: 40vw;
+	background-color:transparent; 
+}
+.Container-9 .list-container-2 .panel-921 header{
+	color: rgb(130, 130, 144);
+	font-size: 2.2vw;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: transparent;
+	width: 30vw;
+	height: 5vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-9 .list-container-2 .panel-921 .about-head12{
+	width: 30vw;
+	height: 35vw;
+	display: grid;
+	place-items:center;
+}
+.Container-9 .list-container-2 .panel-921 .about-head12 *{
+	color:rgb(156, 156, 163);
+}
+.Container-9 .list-container-2 .panel-921 .about-head12 ul{
+	width: 25vw;
+	height: 35vw;
+	display: inline;
+	list-style: none;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+}
+.Container-9 .list-container-2 .panel-921 .about-head12 ul li{
+	width:25vw;
+	height: 5vw;
+	text-align: center;
+	display: grid;
+	place-items:center;
+}
+.Container-9 .list-container-2 .panel-921 .about-head12 ul li audio{
+	width:25vw;
+	height: 2vw;
+	font-family: sans-serif;
+	font-size: 1.2vw;
+	text-decoration: none;
+	color: rgb(156, 156, 163);
+}
+.Container-9 .list-container-2 .panel-922{
+	width: 30vw;
+	height: 40vw;
+	background-color:transparent; 
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+}
+.Container-9 .list-container-2 .panel-922 header{
+	color: rgb(130, 130, 144);
+	font-size: 2.0vw;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: transparent;
+	width: 30vw;
+	height: 5vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+}
+.Container-9 .list-container-2 .panel-922 video{
+	width: 18vw;
+	height: 18vw;
+	outline: none;
+	background-color: transparent;
+	border-radius: 1.5vw;
+}

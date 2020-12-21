@@ -1,0 +1,339 @@
+	*{
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+	background-position: center;
+	background-size: cover;
+}
+body{
+	width:100vw;
+	height: auto;
+	background-position: center;
+	background-color: #C0C0C0;
+	/*background-image: url(vis.png);*/
+	background-size: cover;
+	background-repeat: repeat;
+	scroll-behavior: smooth;
+}
+html{
+	scroll-behavior: smooth;
+}
+.Container-1{
+	width: 100vw;
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-image: url(images/bgpic18.jpg);
+	background-attachment: fixed;
+	margin: auto;
+}
+.Container-1 .logo-control{
+	width: 30vw;
+	height: 30vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+}
+.Container-1 .logo-control a{
+	width: 25vw;
+	height: 25vw;
+	display: grid;
+	place-items:center;
+}
+.Container-1 .logo-control a  img{
+	width: 20vw;
+	height: 20vw;
+	border-radius: 25vw;
+}
+.Container-1 .Category-control{
+	width: 40vw;
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.Container-1 .Category-control a{
+	width: 40vw;
+	height: 25vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	text-decoration: none;
+}
+.Container-1 .Category-control a header{
+	width: 35vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+	text-transform: uppercase;
+	font-size: 5.2vw;
+	font-weight: bold;
+	color: white;
+}
+.Container-2{
+	width: 85vw;
+	height: 25vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	background-color: white;
+	margin: auto;
+	margin-top: 10vw;
+}
+
+.Container-2 .content-controler{
+	width: 85vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: transparent;
+	margin: auto;
+}
+.Container-2 .content-controler *{
+	margin:auto;
+}
+.Container-2 .content-controler .list-card{
+	width: 20vw;
+	height: 20vw;
+	background:blue;
+	box-shadow: 0px 8px 20px 0px;
+	border-radius: 0.7vw;
+	margin-top: -6vw;
+	display: grid
+	place-items:center;
+}
+.Container-2 .content-controler .list-card i{
+	width: 20vw;
+	height: 15vw;
+	border-radius: 0.7vw;
+	color: white;
+	display: grid;
+	font-size: 6vw;
+	place-items:center;
+}
+.Container-2 .content-controler .list-card .fa{
+	width: 20vw;
+	height: 15vw;
+	border-radius: 0.7vw;
+	color: white;
+	display: grid;
+	font-size: 6vw;
+	place-items:center;
+}
+.Container-2 .content-controler .list-card a{
+	width: 18vw;
+	height: 5vw;
+	text-decoration: none;
+	background:transparent;
+	display: grid;
+	place-items:center;
+	color: white;
+	font-size: 1.3vw;
+	font-family: Palatino, URW Palladio L, serif;
+}
+.Container-3{
+	width: 85vw;
+	height: 60vw;
+	display: grid;
+	place-items:center;
+	margin:auto;
+	margin-top: 10vw;
+	background-color: white;
+}
+.Container-3 *{
+    margin: auto;
+}
+.Container-3 .row-container{
+	width:85vw;
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: blue;
+	margin:auto;
+}
+.Container-3 .row-container .row-col-1{
+	width:25vw;
+	height:25vw;
+	background-color: black; 
+	display: grid;
+	place-items:center;
+}
+.Container-3 .row-container .row-col-1 img{
+	width:25vw;
+	height:25vw;
+	border:1px solid #ddd;
+	display: grid;
+	place-items:center;
+}
+.Container-3 .row-container-2{
+	width:85vw;
+	height: 30vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: blue;
+	margin:auto;
+}
+.Container-3 .row-container-2 .row-col-21{
+	width:25vw;
+	height:25vw;
+	background-color: black; 
+	display: grid;
+	place-items:center;
+}
+.Container-3 .row-container-2 .row-col-21 img{
+	width:25vw;
+	height:25vw;
+	border:1px solid #ddd;
+	display: grid;
+	place-items:center;
+	background-size: cover;
+	background-position: center;
+}
+.Container-3 .row-container-2 .row-col-22{
+	width:55vw;
+	height:25vw;
+	background-color:transparent; 
+	display: grid;
+	place-items:center;
+	justify-content: center;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-1{
+	width:55vw;
+	height:12vw;
+	background-image: url(images/pict4.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-1 .row-col1{
+	width: 15vw;
+	height: 12vw;
+	background-image: linear-gradient(purple,red);
+	border-radius: 0.8vw;
+	margin: auto;
+	margin-top: -3vw;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-1 .row-col1 p{
+	width: 12vw;
+	height: 10vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	font-size: 1.4vw;
+	font-family: monospace;
+	color: white;
+	border-radius: 0.8vw;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-1 .row-col1 p a{
+	font-size: 1.4vw;
+	font-family: monospace;
+	color: white;
+	text-decoration: none;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-2{
+	width:55vw;
+	height:12vw;
+	background-image: url(images/pict4.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-2 .row-col2{
+	width: 15vw;
+	height: 12vw;
+	background-image: linear-gradient(purple,blue);
+	border-radius: 0.8vw;
+	margin: auto;
+	margin-top: -3vw;
+	display: grid;
+	place-items:center;
+}
+.Container-3 .row-container-2 .row-col-22 .row22-2 .row-col2 p{
+	width: 12vw;
+	height: 11vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	font-size: 1.3vw;
+	font-family: monospace;
+	color: white;
+	border-radius: 0.8vw;
+}
+.Container-4{
+	width: 85vw;
+	height: 25vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	margin-top: 10vw;
+	background: white;
+}
+.Container-4 *{
+	margin: auto;
+}
+.Container-4 .row-content{
+	width:85vw;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+}
+.Container-4 .row-content .row4-1{
+	width:22vw;
+	height: 20vw;
+	background:#ddd;
+	border-radius: 1vw;
+	display: grid;
+	place-items:center;
+}
+.Container-4 .row-content .row4-1 img{
+	width:22vw;
+	height: 20vw;
+	background:#ddd;
+	border-radius: 1vw;
+	display: grid;
+	place-items:center;
+	border:1px solid #ddd;
+	box-shadow: 0px 8px 16px 0px;
+}
+.Container-5{
+	width: 85vw;
+	height: 25vw;
+	display: grid;
+	place-items:center;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	margin-top: 10vw;
+	background: black;
+}
+.Container-5 *{
+	margin: auto;
+}
+.Container-5 p{
+	width:60vw;
+	height:25vw;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	place-items:center;
+	font-size: 1.4vw;
+	font-family: sans-serif;
+	color:white;
+}
