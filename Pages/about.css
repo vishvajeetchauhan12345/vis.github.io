@@ -121,7 +121,7 @@ html{
 	justify-content: center;
 	align-content: center;
 	place-items:center;
-	font-family: monospace
+	font-family: monospace;
 	font-size: 1.0vw;
 	color: rgb(179, 182, 178);
 	border:1px solid #ddd;
