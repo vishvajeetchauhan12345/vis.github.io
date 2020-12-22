@@ -75,7 +75,7 @@ body{
 }
 .Container-1 .button-control ul li:hover{
 	background-color: rgb(26, 210, 14);
-	border-bottom: 0.5vw solid blue;
+	border-bottom:2px solid blue;
 	
 }
 .Container-1 .button-control ul li a{
@@ -690,6 +690,7 @@ body{
 	align-content: center;
 	margin: auto;
 	color: white;
+	font-size: 1.1vw;
 }
 .Container-8 .panel-81 .row-col-1 .Col-Container ul li .fa{
 	margin-right: 8px;
@@ -704,7 +705,7 @@ margin-top: 60vw;
 .Container-8 .panel-81 .row-col-1 .Col-Container ul li a{
 	text-decoration: none;
 	color: white;
-	font-size: 1.0vw;
+	font-size: 1.1vw;
 }
 .Container-8 .panel-81 .row-col-1 .Col-Container ul li:hover .fa{
 	color:red;
@@ -868,7 +869,7 @@ margin-top: 60vw;
     width:80vw;
 	height: 8vw;
 	font-size: 3.1vw;
-	color:white;
+	color:red;
 	background-color: transparent;
 	display: flex;
 	place-items:center;
